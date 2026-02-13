@@ -1,0 +1,7 @@
+import soundfile as sf
+
+audio, sample_rate = sf.read("audio.wav")
+print("Sample Rate:", sample_rate)
+print("Audio Length:", len(audio))
+
+
